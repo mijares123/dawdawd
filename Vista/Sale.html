@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="..\css/estilos.css">
+	<script type="text/javascript" src="..\js/script.js">
+
+	</script>
+</head>
+<body>
+	 <div class="cajatotal">
+     <div class="caja1">
+     <div class="d1">
+        <label >Producto</label>
+        <select class="" name="" id="producto">
+           <option value="" diseabled>--producto--</option>
+           <option value="arroz">arroz</option>
+           <option value="azucar">azucar</option>
+           <option value="carton">carton</option>
+        </select>
+     </div>
+     <div class="d2">
+       <label for="[object Object]" >precio</label>
+       <input type="text" name="" value="" id="precio">
+     </div>
+     <div class="d3">
+       <label  >Cantidad</label>
+       <input type="text" name="" value="" id="cantidad">
+     </div>
+     <div class="d4">
+       <br>
+       <button type="button" name="button" onclick="agregar()">Añadir</button>
+     </div>
+     </div>
+     <div class="caja2">
+      <table id="tabla">
+        <tr>
+          <th>n°</th>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Subtotal</th>
+          <th >Accion</th>
+        </tr>
+      </table>
+     </div>
+     <div class="caja3">
+       <label for="[object Object]">Total sin IGV:</label>
+        <input type="text" name="" value="" id="sinigv">
+       <br>
+       <label for="[object Object]">IGV:</label>
+       <input type="text" name="" value="" id="igv">
+       <br>
+       <label for="[object Object]">Total:</label>
+       <input type="text" name="" value="" id="conigv">
+     </div>
+   </div>
+</body>
+</html>

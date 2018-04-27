@@ -1,0 +1,40 @@
+*{
+	font-family: "Open Sans", sans-serif;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+	width: 100%;
+ height: 99%;
+ margin: 0;
+}
+.p1{
+  width: 100%;
+  height: 70%;
+}
+.lorem{
+ width: 35%;
+ height: 100%;
+ float: left;
+ margin-left: 100px;
+}
+.imag1{
+ width: 65%;
+ height: 100%;
+ float: right;
+}
+.p2{
+  width: 100%;
+ height: 30%;
+}
+.imagen{
+	margin-left: 200px;
+}
+.nel{
+	margin-top:30px;
+	width: 600px;
+	height: 380px;
+	margin-left: 100px;
+}
